@@ -1,6 +1,7 @@
 import tensorflow as tf
-import gradio
-from tensorflow.keras import layers, models
+
+# import gradio
+from keras import layers, models
 
 (train_images, train_labels), (
     test_images,

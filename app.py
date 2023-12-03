@@ -26,4 +26,5 @@ iface = gr.Interface(
     outputs=gr.Label(num_top_classes=3),
     live=True,
 )
+# iface.launch(share=True)
 iface.launch()
